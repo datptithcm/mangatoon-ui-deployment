@@ -15,4 +15,4 @@ services:
       context: ./mangatoon-client-ui
       dockerfile: Dockerfile
     ports:
-      - "10002:3000"
+      - "10002:3000" 

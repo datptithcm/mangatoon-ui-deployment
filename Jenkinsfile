@@ -81,6 +81,6 @@ pipeline {
                     sh "ssh -o StrictHostKeyChecking=no $REMOTE_SERVER_USERNAME@$REMOTE_SERVER_HOST 'docker compose -f mangatoon-ui/compose.yaml up -d --build'"
                 }
             }
-        } 
+        }
     }
 }

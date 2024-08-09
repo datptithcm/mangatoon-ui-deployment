@@ -158,7 +158,7 @@ function Content({
             </div>
 
             <div className="flex items-start justify-between grow mt-4 overflow-hidden">
-                <div className="grow h-full flex flex-wrap -ml-2 -mt-2 w-1/2 overflow-auto">
+                <div className="grow h-full items-start flex flex-wrap -ml-2 -mt-2 w-1/2 overflow-auto">
                     {getChapterImagesStatus === SUCCEEDED
                         && (
                             chapterImageData.data.map(chapterImage => {
